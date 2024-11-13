@@ -21,11 +21,11 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 header {
-    background-color: rgb(255, 0, 200);
+    background-color: rgb(135, 0, 194);
     color: rgb(0, 0, 0);
     width: 100%;
     top: 0;
@@ -48,7 +48,7 @@ h1 {
 }
 
 hr {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 table {
@@ -59,12 +59,12 @@ table {
 }
 
 thead {
-    background-color: rgb(255, 0, 200);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(135, 0, 194);
 }
 
 tbody tr:nth-child(even) {
-    background-color: rgba(255, 0, 200);
+    background-color: rgba(135, 0, 194);
     color: rgb(255, 255, 255);
 }
 
@@ -78,8 +78,8 @@ td {
 }
 
 tfoot {
-    background-color: rgb(255, 0, 200);
-    color: white;
+    background-color: rgb(135, 0, 194);
+    color: rgb(255, 255, 255);
 }
 
 /*Estilização do form ADD ALUNO*/
@@ -90,7 +90,7 @@ tfoot {
 }
 
 .sessao_nome > input {
-    width: 35%;
+    width: 70%;
     font-size: 1.4rem;
     padding: 5px;
 }
@@ -101,7 +101,7 @@ fieldset {
 }
 
 fieldset > legend {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 fieldset > div {
@@ -132,7 +132,7 @@ fieldset > div > input {
     font-size: 1.1rem;
     padding: 0.4%;
     margin-top: 0.8%;
-    background-color: rgb(255, 0, 200);
+    background-color: rgb(135, 0, 194);
     color: white;
     border: none;
     border-radius: 3px;
